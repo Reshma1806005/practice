@@ -1,0 +1,5 @@
+def findlastnum(a: int, b: int) -> int:
+    power = a**b
+    return power%10
+
+print(findlastnum(3,10))
