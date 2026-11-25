@@ -1,0 +1,6 @@
+def iseven(a: int):
+    if a%2 == 0:
+        return True
+    return False
+a = int(input("Num: "))
+print(iseven(a))
